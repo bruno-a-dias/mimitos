@@ -1,6 +1,8 @@
 # Mimitos eCommerce Landing Page
 
-Bem-vindo ao repositório da **Landing Page Mimitos**, uma loja referência em produtos para pets que agora expande sua atuação para o digital. Este projeto foi desenvolvido com foco em experiência do usuário, usabilidade, acessibilidade e profissionalismo, transmitindo confiança, alegria, carinho e inovação.
+# Clique aqui 👉 https://bruno-a-dias.github.io/mimitos/ 👈
+
+Bem-vindo ao repositório da **Mimitos**, uma loja referência em produtos para pets que agora expande sua atuação para o digital. Este projeto foi desenvolvido com foco em experiência do usuário, usabilidade, acessibilidade e profissionalismo, transmitindo confiança, alegria, carinho e inovação.
 
 ---
 
@@ -15,16 +17,20 @@ Apresentar a Mimitos no ambiente digital, destacando seus diferenciais, benefíc
 /
 ├── index.html
 ├── css/
-│ └── styles.css
+│   └── styles.css
 ├── js/
-│ └── scripts.js
+│   └── scripts.js
 └── img/
-├── logo.png
-├── hero-pet.png
-├── sobre.jpg
-├── produto1.jpg
-├── produto2.jpg
-└── produto3.jpg
+    ├── logo.png
+    ├── hero-pet.png
+    ├── sobre.jpg
+    ├── produto1.jpg
+    ├── produto2.jpg
+    ├── produto3.jpg
+    ├── carrossel1.jpg
+    ├── carrossel2.jpg
+    └── carrossel3.jpg
+
 
 ---
 
@@ -108,7 +114,7 @@ Apresentar a Mimitos no ambiente digital, destacando seus diferenciais, benefíc
 ## 📦 Instalação e Uso
 
 1. **Clone o repositório:**
-git clone https://github.com/seuusuario/mimitos-landing.git
+git clone https://github.com/bruno-a-dias/mimitos.git
 
 2. **Adicione suas imagens à pasta `/img`**  
 (logo, mascotes, produtos, equipe)
