@@ -6,20 +6,26 @@
     --azul-ceu: #A3D2CA;
 }
 
+/* Fontes e Layout Base */
+html {
+    font-size: 18px;
+}
 body {
     background-color: var(--bege-claro);
     color: var(--cinza-medio);
     font-family: 'Arial', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.7;
+    padding-top: 80px; /* Ajuste conforme a altura real da sua navbar fixa */
 }
 
+/* Cores Utilitárias */
 .bg-bege {
     background-color: var(--bege-claro) !important;
 }
-
 .bg-cinza {
     background-color: var(--cinza-medio) !important;
 }
-
 .text-cinza {
     color: var(--cinza-medio) !important;
 }
@@ -33,6 +39,7 @@ body {
     color: var(--azul-ceu) !important;
 }
 
+/* Botões */
 .btn-verde {
     background-color: var(--verde-menta);
     color: #fff;
@@ -52,24 +59,62 @@ body {
     color: #fff;
 }
 
+/* Navbar fixa */
+.navbar, .navbar .nav-link, .navbar-brand {
+    font-size: 1.1rem;
+}
+
+/* Hero */
 .hero-section {
     min-height: 60vh;
     background: linear-gradient(135deg, var(--azul-ceu) 60%, var(--bege-claro) 100%);
 }
-
 .hero-section img{
     border-radius: 32% 68% 61% 39% / 56% 67% 33% 44% ;
 }
 
+/* Tipografia */
+h1, .display-4 {
+    font-size: 2.7rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+h2 {
+    font-size: 2.1rem;
+    line-height: 1.25;
+    font-weight: 600;
+}
+h3 {
+    font-size: 1.6rem;
+    line-height: 1.3;
+}
+h4, h5, h6 {
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+.lead, .hero-section .lead {
+    font-size: 1.35rem;
+    line-height: 1.6;
+}
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.card-text, .form-label, .form-control, .btn {
+    font-size: 1.08rem;
+}
+footer, footer small {
+    font-size: 1rem;
+}
+
+/* Cards e Imagens */
 .benefit-card i {
     font-size: 2.5rem;
 }
-
 .product-card img {
     height: 220px;
     object-fit: cover;
 }
-
 .step-circle {
     width: 56px;
     height: 56px;
@@ -83,17 +128,7 @@ body {
     margin-bottom: 0.5rem;
 }
 
-footer {
-    background: var(--cinza-medio);
-    color: #fff;
-}
-
-@media (max-width: 767px) {
-    .hero-section img {
-        max-width: 100%;
-    }
-}
-
+/* Carrossel */
 .mimitos-carousel {
     width: 250px;
     max-width: 100%;
@@ -103,4 +138,35 @@ footer {
     height: 250px;
     object-fit: cover;
     border-radius: 12px;
+}
+
+/* Footer */
+footer {
+    background: var(--cinza-medio);
+    color: #fff;
+}
+
+/* Responsividade */
+@media (max-width: 767px) {
+    .hero-section img {
+        max-width: 100%;
+    }
+}
+
+.lead-magnet-box {
+    border: 3px solid #A3D2CA;
+    transition: box-shadow 0.2s;
+}
+.lead-magnet-box:focus-within,
+.lead-magnet-box:hover {
+    box-shadow: 0 0 0 6px #A3D2CA33;
+}
+.btn-coral {
+    background-color: #FF8882;
+    color: #fff;
+    border: none;
+}
+.btn-coral:hover {
+    background-color: #ff6f6a;
+    color: #fff;
 }

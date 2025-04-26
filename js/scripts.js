@@ -25,3 +25,15 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    const leadForm = document.getElementById('leadForm');
+    const leadMsg = document.getElementById('leadMsg');
+    if (leadForm) {
+        leadForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+            leadMsg.innerHTML = '<div class="alert alert-success mt-2">Pronto! Cupom enviado para seu e-mail. Bem-vindo à família Mimitos 🐾</div>';
+            leadForm.reset();
+        });
+    }
+});
