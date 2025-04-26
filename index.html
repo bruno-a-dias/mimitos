@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mimitos - Sua Loja Pet Online</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-bege">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="img/logo.png" alt="Mimitos Logo" width="48" height="48" class="me-2">
+                <span class="fw-bold text-cinza">Mimitos</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#beneficios">Benefícios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#como-funciona">Como Funciona</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#depoimentos">Depoimentos</a></li>
+                    <li class="nav-item"><a class="btn btn-coral ms-2" href="#contato">Fale Conosco</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero-section d-flex align-items-center" style="background-color: #A3D2CA;">
+        <div class="container text-center py-5">
+            <h1 class="display-4 fw-bold text-cinza">Bem-vindo à Mimitos!</h1>
+            <p class="lead text-cinza">Tudo para o bem-estar do seu pet, com carinho, qualidade e inovação. Experimente nossa loja online!</p>
+            <a href="#produtos" class="btn btn-verde btn-lg mt-3">Conheça nossos produtos</a>
+            <img src="img/hero-pet.png" alt="Pets felizes" class="img-fluid mt-4" style="max-width: 400px;">
+        </div>
+    </section>
+
+    <!-- Sobre a Mimitos -->
+    <section id="sobre" class="py-5 bg-bege">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="img/sobre.jpg" alt="Equipe Mimitos" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="fw-bold text-cinza">Sobre a Mimitos</h2>
+                    <p class="text-cinza">
+                        Com lojas em Madrid, Barcelona, Valência e Sevilha, a Mimitos é referência em produtos para pets. Trabalhamos com as melhores marcas e desenvolvemos uma linha própria de brinquedos e acessórios, sempre pensando na segurança e felicidade dos animais. Agora, levamos toda essa experiência para o ambiente digital, oferecendo praticidade, variedade e atendimento personalizado.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefícios do eCommerce -->
+    <section id="beneficios" class="py-5">
+        <div class="container">
+            <h2 class="fw-bold text-center mb-5 text-cinza">Por que comprar online na Mimitos?</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow benefit-card text-center">
+                        <div class="card-body">
+                            <i class="bi bi-clock-history display-4 text-verde"></i>
+                            <h5 class="card-title mt-3">Comodidade 24/7</h5>
+                            <p class="card-text">Compre a qualquer hora, de qualquer lugar, com poucos cliques.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow benefit-card text-center">
+                        <div class="card-body">
+                            <i class="bi bi-shield-check display-4 text-coral"></i>
+                            <h5 class="card-title mt-3">Segurança e Confiança</h5>
+                            <p class="card-text">Ambiente protegido, múltiplos métodos de pagamento e política de devolução transparente.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow benefit-card text-center">
+                        <div class="card-body">
+                            <i class="bi bi-heart-fill display-4 text-azul"></i>
+                            <h5 class="card-title mt-3">Atendimento Personalizado</h5>
+                            <p class="card-text">Equipe preparada para tirar dúvidas e ajudar na escolha do melhor para seu pet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos em Destaque -->
+    <section id="produtos" class="py-5 bg-bege">
+        <div class="container">
+            <h2 class="fw-bold text-center mb-5 text-cinza">Produtos em Destaque</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card product-card h-100">
+                        <img src="img/produto1.jpg" class="card-img-top" alt="Ração Premium">
+                        <div class="card-body">
+                            <h5 class="card-title">Ração Premium</h5>
+                            <p class="card-text">Nutrição completa para todas as fases do seu pet.</p>
+                            <a href="#" class="btn btn-verde">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card product-card h-100">
+                        <img src="img/produto2.jpg" class="card-img-top" alt="Brinquedo Linha Própria">
+                        <div class="card-body">
+                            <h5 class="card-title">Brinquedo Linha Própria</h5>
+                            <p class="card-text">Desenvolvido com segurança e diversão garantida.</p>
+                            <a href="#" class="btn btn-verde">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card product-card h-100">
+                        <img src="img/produto3.jpg" class="card-img-top" alt="Acessórios para Pets">
+                        <div class="card-body">
+                            <h5 class="card-title">Acessórios Diversos</h5>
+                            <p class="card-text">Camas, coleiras, comedouros e muito mais para seu pet.</p>
+                            <a href="#" class="btn btn-verde">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Como Funciona -->
+    <section id="como-funciona" class="py-5">
+        <div class="container">
+            <h2 class="fw-bold text-center mb-5 text-cinza">Como Comprar na Mimitos?</h2>
+            <div class="row text-center">
+                <div class="col-md-3 mb-4">
+                    <div class="step-circle mb-3 mx-auto"><span>1</span></div>
+                    <h5>Escolha o produto</h5>
+                    <p>Explore nossas categorias e encontre o que seu pet precisa.</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="step-circle mb-3 mx-auto"><span>2</span></div>
+                    <h5>Adicione ao carrinho</h5>
+                    <p>Selecione quantidade e variantes desejadas.</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="step-circle mb-3 mx-auto"><span>3</span></div>
+                    <h5>Finalize a compra</h5>
+                    <p>Escolha o método de pagamento seguro e confirme seus dados.</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="step-circle mb-3 mx-auto"><span>4</span></div>
+                    <h5>Receba em casa</h5>
+                    <p>Entregamos com rapidez e cuidado em todo o Brasil.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carrossel de Imagens - largura fixa 250px -->
+<div class="d-flex justify-content-center my-5">
+    <div id="carouselMimitos" class="carousel slide mimitos-carousel" data-bs-ride="carousel" style="width:250px;">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/carrossel1.jpg" class="d-block w-100 carousel-img" alt="Imagem 1">
+        </div>
+        <div class="carousel-item">
+          <img src="img/carrossel2.jpg" class="d-block w-100 carousel-img" alt="Imagem 2">
+        </div>
+        <div class="carousel-item">
+          <img src="img/carrossel3.jpg" class="d-block w-100 carousel-img" alt="Imagem 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselMimitos" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselMimitos" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+  </div>
+  
+
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="py-5 bg-bege">
+        <div class="container">
+            <h2 class="fw-bold text-center mb-5 text-cinza">O que dizem nossos clientes</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <p class="card-text">"Comprei brinquedos para meu cachorro e fiquei impressionada com a qualidade e rapidez da entrega. Recomendo!"</p>
+                            <h6 class="card-subtitle text-cinza mt-3">Ana Paula, Madrid</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <p class="card-text">"Atendimento excelente e produtos de confiança. Meu gato adorou a nova cama!"</p>
+                            <h6 class="card-subtitle text-cinza mt-3">Carlos Ruiz, Barcelona</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <p class="card-text">"A experiência de compra foi fácil e segura. Voltarei a comprar na Mimitos!"</p>
+                            <h6 class="card-subtitle text-cinza mt-3">Lucía Gómez, Valência</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section id="contato" class="py-5">
+        <div class="container">
+            <h2 class="fw-bold text-center mb-4 text-cinza">Fale com a Mimitos</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form id="formContato" class="bg-bege p-4 rounded shadow">
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-coral w-100">Enviar Mensagem</button>
+                        <div id="formMsg" class="mt-3"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-cinza text-light">
+        <div class="container text-center">
+            <img src="img/logo.png" alt="Mimitos Logo" width="36" class="mb-2">
+            <p class="mb-1">Mimitos Pet Shop Online &copy; 2025</p>
+            <div class="mb-2">
+                <a href="#" class="text-light me-2"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-light me-2"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-light me-2"><i class="bi bi-whatsapp"></i></a>
+            </div>
+            <small>Ambiente seguro <i class="bi bi-shield-lock"></i> | Política de Privacidade</small>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS + Icons + Custom JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="js/scripts.js"></script>
+</body>
+</html>
